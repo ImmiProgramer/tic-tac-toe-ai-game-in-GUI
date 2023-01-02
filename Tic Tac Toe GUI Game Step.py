@@ -1,8 +1,17 @@
+# This Game Created by immi
+
+
+# import built-in modules
 from tkinter import *
 from tkinter import messagebox
-import customtkinter
 from random import choice as CompChoice
+# import third-party module
+import customtkinter # pip install customtkinter
+
+# Before You Run this Game Please install 'customtkinter' module using pip install customtkinter
+
 # pyinstaller --add-data "C:/Users/<user_name>/AppData/Local/Programs/Python/Python310/Lib/site-packages/customtkinter;customtkinter/" -i icon.ico program.py (Example)
+
 
 SingalPlayers = True
 
